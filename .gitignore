@@ -1,0 +1,51 @@
+*.iml
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# --- Kotlin / KMP ---
+.kotlin/
+kotlin-js-store/
+*.nmf
+
+# --- Gradle ---
+.gradle/
+build/
+bin/
+!gradle-wrapper.jar
+gradle.properties
+
+# --- Android ---
+*.apk
+*.aar
+*.ap_
+*.dex
+local.properties
+.externalNativeBuild
+.cxx/
+captures/
+
+# --- IntelliJ IDEA / Android Studio ---
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.navigation/
+
+# --- Ktor / Logs ---
+logs/
+*.log
+
+# --- Secrets & Environment ---
+.env
+.env.*
